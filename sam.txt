@@ -1,0 +1,34 @@
+Task Manager
+------------
+------------
+
+Description
+-----------
+
+1) divides into 3 parts:-
+		@ Task Table     (For Task storing Purpose   )
+		@ Query table    (For questions to get purpose)
+		@ Intsance Table (For Instance Remainder purpose)
+
+
+Functionality
+-------------
+#note: Time should be as mainly 1 Hour tasks
+
+1) When we give an Task,Time,period It should have to manage set task at that time up to that time .
+2) If Time or period aren't given then Time should be randomised based on Holiday or not and Period should be fixed to 1 hour .
+3) If Day was not a Holiday Manage to have task b/w 5-11 with 9-10 as exception .
+4) If Today day was filled add the not fixed task to next date. 
+5) Wash Clotes should be seen #note: Done by Today Viewer
+5) Querys are stored in queue,However preference Query are stored in stack and that stack should be placed as first element of queue .
+6) same thing for instances should be maintained as Querys.
+
+
+Database management
+-------------------
+
+1) Every Task will Stores in a database with table having it's date as name.
+2) A Table have the colomns as "time" "task" ,"period","completed","fixed".
+3) Another Table in Database should be named as "Querys" with colums as "query","preference","completed".
+4) Another Table in Database should be named as "Instances" with coloums as "instance","preference","completed".
+
